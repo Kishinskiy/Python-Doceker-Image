@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "kishinskiy/python"
+    registry = "kishinskiy/python-3.9"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
