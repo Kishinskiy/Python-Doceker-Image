@@ -1,6 +1,6 @@
 pipeline {
   environment {
-    registry = "kishinskiy/pgparser"
+    registry = "kishinskiy/python"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
